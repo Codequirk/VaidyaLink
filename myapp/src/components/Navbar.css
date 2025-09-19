@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2bb673;
+  padding: 12px 20px;
+  color: white;
+  width: 100%;                   /* ✅ full width navbar */
+  box-sizing: border-box;
+}
+
+.navbar h2 {
+  margin: 0;
+  color: black;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

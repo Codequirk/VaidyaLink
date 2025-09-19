@@ -1,0 +1,27 @@
+.home-container {
+  text-align: center;
+  padding: 80px 20px;
+  width: 100%;                   /* ✅ full screen */
+  min-height: 100vh;   
+  background: linear-gradient(to center, #e6f7f4, #f8fdfd);
+  box-sizing: border-box;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #2bb673;
+}
+
+.home-container p {
+  font-size: 1.1rem;
+  margin: 0 auto;
+  color: #555;
+  max-width: 800px; 
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; 
+}

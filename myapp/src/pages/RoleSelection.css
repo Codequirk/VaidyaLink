@@ -1,0 +1,44 @@
+.role-container {
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;                  /* ✅ full width */
+  box-sizing: border-box;
+}
+
+.role-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%; 
+}
+
+.role-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.role-card h3 {
+  color: #2bb673;
+}
+
+.role-card p {
+  color: #555;
+}
+
+.role-card ul {
+  margin: 15px 0;
+  color: #444;
+}
+
+.role-card .btn-primary {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}

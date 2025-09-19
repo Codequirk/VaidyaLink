@@ -1,0 +1,9 @@
+.footer {
+  background-color: #2bb673;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  width: 100%;                   /* ✅ footer spans full screen */
+  box-sizing: border-box;
+}
